@@ -27,7 +27,7 @@ for conn in psutil.net_connections(kind='inet'):
 ## ▶️ Usage
 ```bash
 pip install psutil
-python traffic_cop.py
+python cop.py
 ```
 
 ### Example Output
