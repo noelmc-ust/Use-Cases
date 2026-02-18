@@ -30,7 +30,7 @@ except Exception as e:
 - `jsonschema.validate(...)`: Validates config against the schema.
 - Any validation failure is caught and printed clearly.
 
-## ▶️ Usage
+##  Usage
 ```bash
 pip install jsonschema
 python validator.py config.json

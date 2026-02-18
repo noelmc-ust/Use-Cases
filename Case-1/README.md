@@ -22,7 +22,7 @@ To avoid such issues, this script provides a quick alert mechanism that indicate
 
 ---
 
-## ✅ Approach
+##  Approach
 The script follows a simple and efficient workflow:
 1. Use `df /` to check disk usage for the root filesystem.
 2. Extract the usage percentage using `awk` and `sed`.

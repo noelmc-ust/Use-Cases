@@ -1,17 +1,17 @@
 
 # EC2 Instance Pinger (Laptop → EC2, ICMP)
 
-## 📌 Scenario
+##  Scenario
 
 We needed a simple way to verify reachability of our remote machine from a local Windows laptop to an check if the cause of our crash is related to app issues or remote machine not working or turning on.
 
-## 🧠 Approach
+##  Approach
 
  We can create a simple bash script where we enter our EC2 instance into a variable  and call the ping function with constraints:
 1. no of requests
 2. time interval between the requests.
 
-## 🛠️ Process (What We Did)
+##  Process (What We Did)
 
 ### 1) Created the initial Bash script (`ping.sh`) in Git Bash and when i tried to run, it showed error pinging the EC2 isntance not reachable, when trying to understand the issue i found that it was related to system adminstration access related to -c flag of ping
 `images/1st Result.png`
