@@ -14,13 +14,13 @@ We needed a simple way to verify reachability of our remote machine from a local
 ##  Process (What We Did)
 
 ### 1) Created the initial Bash script (`ping.sh`) in Git Bash and when i tried to run, it showed error pinging the EC2 isntance not reachable, when trying to understand the issue i found that it was related to system adminstration access related to -c flag of ping
-`images/1st Result.png`
-`images/2nd Result.png`
+`Self Case/images/1st Result.png`
+`Self Case/images/2nd Result.png`
 
 ### 2) Verified connectivity with the EC2 using command prompt to check if the was related to EC2 and found out to be succesfully connecting.
-`images/3rd Result.png`
+`Self Case/images/3rd Result.png`
 
 ### 3) Created a Git Bash–friendly wrapper that calls ping funcition directly from the system level ("ping_ec2_win.sh") and i observed it to be working properly
-`images/EC2 IP.png`
-`images/Final Result.png`
+`Self Case/images/EC2 IP Result.png`
+`Self Case/images/Final Result.png`
 
